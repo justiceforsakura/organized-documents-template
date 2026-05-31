@@ -29,7 +29,7 @@ bash create_organized_folders.sh
 bash color_folders.sh
 ```
 
-**To run it on your existing "Organized Documents Folder" — just open color_folders.sh in VS Code and change this line:
+**To run it on your existing "Organized Documents Folder" — just open color_folders.sh in VS Code and change this line:**
 ```bash
 BASE="$HOME/Documents/Organized Documents CLEAN"
 ```

@@ -1,0 +1,2883 @@
+{
+  "version": 2,
+  "generated_from": "create_organized_folders.sh",
+  "output_root": "~/Documents/Organized Documents",
+  "review_folder": "_Needs Review",
+  "group_threshold": 0.5,
+  "confidence_threshold": 0.6,
+  "groups": {
+    "2BOrganized": {
+      "path_prefix": "2BOrganized",
+      "keywords": [],
+      "patterns": []
+    },
+    "@Command Center": {
+      "path_prefix": "@Command Center",
+      "keywords": [],
+      "patterns": []
+    },
+    "Babysitter Shared": {
+      "path_prefix": "Babysitter Shared",
+      "keywords": [
+        "babysitter shared"
+      ],
+      "patterns": []
+    },
+    "Business": {
+      "path_prefix": "Business",
+      "keywords": [
+        "business"
+      ],
+      "patterns": []
+    },
+    "Education": {
+      "path_prefix": "Education",
+      "keywords": [
+        "education"
+      ],
+      "patterns": []
+    },
+    "Family Shared": {
+      "path_prefix": "Family Shared",
+      "keywords": [
+        "family",
+        "household",
+        "benefits",
+        "identification",
+        "certificate"
+      ],
+      "patterns": []
+    },
+    "Finance": {
+      "path_prefix": "Finance",
+      "keywords": [
+        "invoice",
+        "statement",
+        "balance",
+        "payment",
+        "receipt",
+        "account number",
+        "due"
+      ],
+      "patterns": [
+        "\\$[0-9,]+\\.?[0-9]{0,2}\\b",
+        "amount due"
+      ]
+    },
+    "Hobby": {
+      "path_prefix": "Hobby",
+      "keywords": [
+        "hobby"
+      ],
+      "patterns": []
+    },
+    "Home": {
+      "path_prefix": "Home",
+      "keywords": [
+        "home"
+      ],
+      "patterns": []
+    },
+    "LEGAL_AND_ADVOCACY": {
+      "path_prefix": "LEGAL_AND_ADVOCACY",
+      "keywords": [
+        "court",
+        "cause no",
+        "plaintiff",
+        "defendant",
+        "petitioner",
+        "respondent",
+        "summons",
+        "motion",
+        "exhibit",
+        "affidavit",
+        "petition",
+        "docket",
+        "counsel"
+      ],
+      "patterns": [
+        "cause\\s+(no|number)\\.?\\s*[0-9a-z\\-]+",
+        "motion\\s+(to|for)\\s+\\w+",
+        "in the .{0,40}court"
+      ]
+    },
+    "Miscellaneous": {
+      "path_prefix": "Miscellaneous",
+      "keywords": [],
+      "patterns": []
+    },
+    "Personal": {
+      "path_prefix": "Personal",
+      "keywords": [
+        "personal"
+      ],
+      "patterns": []
+    },
+    "Pet Sitter Shared": {
+      "path_prefix": "Pet Sitter Shared",
+      "keywords": [
+        "pet sitter shared"
+      ],
+      "patterns": []
+    },
+    "Software Licences": {
+      "path_prefix": "Software Licences",
+      "keywords": [
+        "software licence",
+        "licence"
+      ],
+      "patterns": []
+    }
+  },
+  "leaves": [
+    {
+      "path": "2BOrganized",
+      "seed_path": "2BOrganized",
+      "group": "2BOrganized",
+      "keywords": [],
+      "patterns": []
+    },
+    {
+      "path": "@Command Center",
+      "seed_path": "@Command Center",
+      "group": "@Command Center",
+      "keywords": [],
+      "patterns": []
+    },
+    {
+      "path": "Babysitter Shared",
+      "seed_path": "Babysitter Shared",
+      "group": "Babysitter Shared",
+      "keywords": [
+        "babysitter shared"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Business/Client Files/Client Contact Info",
+      "seed_path": "Business/Client Files/Client Contact Info",
+      "group": "Business",
+      "keywords": [
+        "client contact info"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Business/Client Files/Client Feedback",
+      "seed_path": "Business/Client Files/Client Feedback",
+      "group": "Business",
+      "keywords": [
+        "client feedback",
+        "feedback"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Business/Client Files/Project Briefs",
+      "seed_path": "Business/Client Files/Project Briefs",
+      "group": "Business",
+      "keywords": [
+        "project brief",
+        "brief"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Business/Client Files/Proposals and Quotes",
+      "seed_path": "Business/Client Files/Proposals and Quotes",
+      "group": "Business",
+      "keywords": [
+        "proposal quote",
+        "quote"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Business/Contracts & Agreements/Client Contracts",
+      "seed_path": "Business/Contracts & Agreements/Client Contracts",
+      "group": "Business",
+      "keywords": [
+        "client contract",
+        "contract"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Business/Contracts & Agreements/Non-Disclosure Agreements",
+      "seed_path": "Business/Contracts & Agreements/Non-Disclosure Agreements",
+      "group": "Business",
+      "keywords": [
+        "non disclosure agreement",
+        "agreement"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Business/Contracts & Agreements/Partnership Agreements",
+      "seed_path": "Business/Contracts & Agreements/Partnership Agreements",
+      "group": "Business",
+      "keywords": [
+        "partnership agreement",
+        "agreement"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Business/Contracts & Agreements/Vendor Agreements",
+      "seed_path": "Business/Contracts & Agreements/Vendor Agreements",
+      "group": "Business",
+      "keywords": [
+        "vendor agreement",
+        "agreement"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Business/Employee Info/Employee Contracts",
+      "seed_path": "Business/Employee Info/Employee Contracts",
+      "group": "Business",
+      "keywords": [
+        "employee contract",
+        "contract"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Business/Employee Info/Payroll Information",
+      "seed_path": "Business/Employee Info/Payroll Information",
+      "group": "Business",
+      "keywords": [
+        "payroll information"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Business/Employee Info/Performance Reviews",
+      "seed_path": "Business/Employee Info/Performance Reviews",
+      "group": "Business",
+      "keywords": [
+        "performance review",
+        "review"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Business/Employee Info/Training and Development Records",
+      "seed_path": "Business/Employee Info/Training and Development Records",
+      "group": "Business",
+      "keywords": [
+        "training development record"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Business/Employment Documents/Checks",
+      "seed_path": "Business/Employment Documents/Checks",
+      "group": "Business",
+      "keywords": [
+        "check"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Business/Employment Documents/Contracts",
+      "seed_path": "Business/Employment Documents/Contracts",
+      "group": "Business",
+      "keywords": [
+        "contract"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Business/Employment Documents/Cover Letters",
+      "seed_path": "Business/Employment Documents/Cover Letters",
+      "group": "Business",
+      "keywords": [
+        "cover letter",
+        "letter"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Business/Employment Documents/Pay Stubs",
+      "seed_path": "Business/Employment Documents/Pay Stubs",
+      "group": "Business",
+      "keywords": [
+        "pay stub",
+        "stub"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Business/Employment Documents/Performance Reviews",
+      "seed_path": "Business/Employment Documents/Performance Reviews",
+      "group": "Business",
+      "keywords": [
+        "performance review",
+        "review"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Business/Employment Documents/Professional Development",
+      "seed_path": "Business/Employment Documents/Professional Development",
+      "group": "Business",
+      "keywords": [
+        "professional development",
+        "development"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Business/Employment Documents/Resumes",
+      "seed_path": "Business/Employment Documents/Resumes",
+      "group": "Business",
+      "keywords": [
+        "resume"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Business/Financial Documents/Bank Statements",
+      "seed_path": "Business/Financial Documents/Bank Statements",
+      "group": "Business",
+      "keywords": [
+        "bank statement",
+        "statement"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Business/Financial Documents/Enterprise Risk Assessment",
+      "seed_path": "Business/Financial Documents/Enterprise Risk Assessment",
+      "group": "Business",
+      "keywords": [
+        "enterprise risk assessment",
+        "assessment"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Business/Financial Documents/Expense Reports",
+      "seed_path": "Business/Financial Documents/Expense Reports",
+      "group": "Business",
+      "keywords": [
+        "expense report",
+        "report"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Business/Financial Documents/Invoices",
+      "seed_path": "Business/Financial Documents/Invoices",
+      "group": "Business",
+      "keywords": [
+        "invoice"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Business/Financial Documents/Receipts",
+      "seed_path": "Business/Financial Documents/Receipts",
+      "group": "Business",
+      "keywords": [
+        "receipt"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Business/Financial Documents/Tax Documents",
+      "seed_path": "Business/Financial Documents/Tax Documents",
+      "group": "Business",
+      "keywords": [
+        "tax document"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Business/Legal/Business Licenses and Permits",
+      "seed_path": "Business/Legal/Business Licenses and Permits",
+      "group": "Business",
+      "keywords": [
+        "business licens permit",
+        "permit"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Business/Legal/Compliance Documents",
+      "seed_path": "Business/Legal/Compliance Documents",
+      "group": "Business",
+      "keywords": [
+        "compliance document"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Business/Legal/Legal Correspondence",
+      "seed_path": "Business/Legal/Legal Correspondence",
+      "group": "Business",
+      "keywords": [
+        "legal correspondence",
+        "correspondence"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Business/Legal/Trademark and Patent",
+      "seed_path": "Business/Legal/Trademark and Patent",
+      "group": "Business",
+      "keywords": [
+        "trademark patent",
+        "patent"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Business/Marketing/Advertising Materials",
+      "seed_path": "Business/Marketing/Advertising Materials",
+      "group": "Business",
+      "keywords": [
+        "advertising material"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Business/Marketing/Branding Guidelines",
+      "seed_path": "Business/Marketing/Branding Guidelines",
+      "group": "Business",
+      "keywords": [
+        "branding guideline",
+        "guideline"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Business/Marketing/Marketing Plans and Strategies",
+      "seed_path": "Business/Marketing/Marketing Plans and Strategies",
+      "group": "Business",
+      "keywords": [
+        "marketing plan strategy",
+        "strategy"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Business/Marketing/Social Media Content",
+      "seed_path": "Business/Marketing/Social Media Content",
+      "group": "Business",
+      "keywords": [
+        "social media content",
+        "content"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Business/Marketing/Website Materials",
+      "seed_path": "Business/Marketing/Website Materials",
+      "group": "Business",
+      "keywords": [
+        "website material"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Business/Miscellaneous",
+      "seed_path": "Business/Miscellaneous",
+      "group": "Business",
+      "keywords": [],
+      "patterns": []
+    },
+    {
+      "path": "Business/Pitches",
+      "seed_path": "Business/Pitches",
+      "group": "Business",
+      "keywords": [
+        "pitch"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Business/Product:Service Info/Inventory Records",
+      "seed_path": "Business/Product:Service Info/Inventory Records",
+      "group": "Business",
+      "keywords": [
+        "inventory record"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Business/Product:Service Info/Pricing Information",
+      "seed_path": "Business/Product:Service Info/Pricing Information",
+      "group": "Business",
+      "keywords": [
+        "pricing information"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Business/Product:Service Info/Product Manuals",
+      "seed_path": "Business/Product:Service Info/Product Manuals",
+      "group": "Business",
+      "keywords": [
+        "product manual",
+        "manual"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Business/Product:Service Info/Service Descriptions",
+      "seed_path": "Business/Product:Service Info/Service Descriptions",
+      "group": "Business",
+      "keywords": [
+        "service description",
+        "description"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Business/Professional Development/Certificates",
+      "seed_path": "Business/Professional Development/Certificates",
+      "group": "Business",
+      "keywords": [
+        "certificate"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Business/Professional Development/Courses",
+      "seed_path": "Business/Professional Development/Courses",
+      "group": "Business",
+      "keywords": [
+        "cours"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Business/Professional Development/Workshops",
+      "seed_path": "Business/Professional Development/Workshops",
+      "group": "Business",
+      "keywords": [
+        "workshop"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Business/Project Management/Correspondence with Team members",
+      "seed_path": "Business/Project Management/Correspondence with Team members",
+      "group": "Business",
+      "keywords": [
+        "correspondence team member",
+        "member"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Business/Project Management/Meeting Notes",
+      "seed_path": "Business/Project Management/Meeting Notes",
+      "group": "Business",
+      "keywords": [
+        "meeting note"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Business/Project Management/Project Plans",
+      "seed_path": "Business/Project Management/Project Plans",
+      "group": "Business",
+      "keywords": [
+        "project plan",
+        "plan"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Business/Project Management/Timelines and Schedules",
+      "seed_path": "Business/Project Management/Timelines and Schedules",
+      "group": "Business",
+      "keywords": [
+        "timeline schedule",
+        "schedule"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Business/Proposals/Proposal Research",
+      "seed_path": "Business/Proposals/Proposal Research",
+      "group": "Business",
+      "keywords": [
+        "proposal research",
+        "research"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Business/Sales/Leads and Customer Info",
+      "seed_path": "Business/Sales/Leads and Customer Info",
+      "group": "Business",
+      "keywords": [
+        "lead customer info"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Business/Sales/Pricing and Product Info",
+      "seed_path": "Business/Sales/Pricing and Product Info",
+      "group": "Business",
+      "keywords": [
+        "pricing product info"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Business/Sales/Sales Presentations",
+      "seed_path": "Business/Sales/Sales Presentations",
+      "group": "Business",
+      "keywords": [
+        "sale presentation",
+        "presentation"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Business/Sales/Sales Reports",
+      "seed_path": "Business/Sales/Sales Reports",
+      "group": "Business",
+      "keywords": [
+        "sale report",
+        "report"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Business/Software Licenses",
+      "seed_path": "Business/Software Licenses",
+      "group": "Business",
+      "keywords": [
+        "software licens",
+        "licens"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Business/Tech",
+      "seed_path": "Business/Tech",
+      "group": "Business",
+      "keywords": [
+        "tech"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Education/Anna/Admission Documents/Admission Letters",
+      "seed_path": "Education/Anna/Admission Documents/Admission Letters",
+      "group": "Education",
+      "keywords": [
+        "admission letter",
+        "letter"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Education/Anna/Admission Documents/Enrollment Forms",
+      "seed_path": "Education/Anna/Admission Documents/Enrollment Forms",
+      "group": "Education",
+      "keywords": [
+        "enrollment form"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Education/Anna/Admission Documents/Financial Aid Docs",
+      "seed_path": "Education/Anna/Admission Documents/Financial Aid Docs",
+      "group": "Education",
+      "keywords": [
+        "financial aid doc"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Education/Anna/Admission Documents/Scholarship Awards and Info",
+      "seed_path": "Education/Anna/Admission Documents/Scholarship Awards and Info",
+      "group": "Education",
+      "keywords": [
+        "scholarship award info"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Education/Anna/Course Materials/Assignments",
+      "seed_path": "Education/Anna/Course Materials/Assignments",
+      "group": "Education",
+      "keywords": [
+        "assignment"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Education/Anna/Course Materials/Lecture Notes",
+      "seed_path": "Education/Anna/Course Materials/Lecture Notes",
+      "group": "Education",
+      "keywords": [
+        "lecture note"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Education/Anna/Course Materials/Reading Materials & Textbooks",
+      "seed_path": "Education/Anna/Course Materials/Reading Materials & Textbooks",
+      "group": "Education",
+      "keywords": [
+        "reading material textbook",
+        "textbook"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Education/Anna/Course Materials/Research Papers and Projects",
+      "seed_path": "Education/Anna/Course Materials/Research Papers and Projects",
+      "group": "Education",
+      "keywords": [
+        "research paper project",
+        "project"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Education/Anna/Course Materials/Syllabi",
+      "seed_path": "Education/Anna/Course Materials/Syllabi",
+      "group": "Education",
+      "keywords": [
+        "syllabi"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Education/Anna/Diplomas and Certificates",
+      "seed_path": "Education/Anna/Diplomas and Certificates",
+      "group": "Education",
+      "keywords": [
+        "diploma certificate",
+        "certificate"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Education/Anna/Extracurricular Activities/Awards",
+      "seed_path": "Education/Anna/Extracurricular Activities/Awards",
+      "group": "Education",
+      "keywords": [
+        "award"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Education/Anna/Extracurricular Activities/Club Memberships",
+      "seed_path": "Education/Anna/Extracurricular Activities/Club Memberships",
+      "group": "Education",
+      "keywords": [
+        "club membership",
+        "membership"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Education/Anna/Extracurricular Activities/Sports Participation Records",
+      "seed_path": "Education/Anna/Extracurricular Activities/Sports Participation Records",
+      "group": "Education",
+      "keywords": [
+        "sport participation record"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Education/Anna/Extracurricular Activities/Volunteer Experience",
+      "seed_path": "Education/Anna/Extracurricular Activities/Volunteer Experience",
+      "group": "Education",
+      "keywords": [
+        "volunteer experience",
+        "experience"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Education/Anna/Financial Documents/Education Related Expenses",
+      "seed_path": "Education/Anna/Financial Documents/Education Related Expenses",
+      "group": "Education",
+      "keywords": [
+        "education related expens",
+        "expens"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Education/Anna/Financial Documents/Scholarship Details",
+      "seed_path": "Education/Anna/Financial Documents/Scholarship Details",
+      "group": "Education",
+      "keywords": [
+        "scholarship detail"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Education/Anna/Financial Documents/Student Loan Info",
+      "seed_path": "Education/Anna/Financial Documents/Student Loan Info",
+      "group": "Education",
+      "keywords": [
+        "student loan info"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Education/Anna/Financial Documents/Tuition Fee Receipts",
+      "seed_path": "Education/Anna/Financial Documents/Tuition Fee Receipts",
+      "group": "Education",
+      "keywords": [
+        "tuition fee receipt",
+        "receipt"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Education/Anna/Miscellaneous",
+      "seed_path": "Education/Anna/Miscellaneous",
+      "group": "Education",
+      "keywords": [],
+      "patterns": []
+    },
+    {
+      "path": "Education/Anna/Professional Development/Letters of Recommendation",
+      "seed_path": "Education/Anna/Professional Development/Letters of Recommendation",
+      "group": "Education",
+      "keywords": [
+        "letter recommendation",
+        "recommendation"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Education/Anna/Professional Development/Networking Contacts",
+      "seed_path": "Education/Anna/Professional Development/Networking Contacts",
+      "group": "Education",
+      "keywords": [
+        "networking contact",
+        "contact"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Education/Anna/Professional Development/Resume & Cover Letters",
+      "seed_path": "Education/Anna/Professional Development/Resume & Cover Letters",
+      "group": "Education",
+      "keywords": [
+        "resume cover letter",
+        "letter"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Education/Anna/Professional Development/Workshop and Seminar Info",
+      "seed_path": "Education/Anna/Professional Development/Workshop and Seminar Info",
+      "group": "Education",
+      "keywords": [
+        "workshop seminar info"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Education/Anna/Relevant Screenshots",
+      "seed_path": "Education/Anna/Relevant Screenshots",
+      "group": "Education",
+      "keywords": [
+        "relevant screenshot",
+        "screenshot"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Education/Anna/Research/Conference Presentations",
+      "seed_path": "Education/Anna/Research/Conference Presentations",
+      "group": "Education",
+      "keywords": [
+        "conference presentation",
+        "presentation"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Education/Anna/Research/Published Papers",
+      "seed_path": "Education/Anna/Research/Published Papers",
+      "group": "Education",
+      "keywords": [
+        "published paper",
+        "paper"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Education/Anna/Research/Research Grants and Funding Information",
+      "seed_path": "Education/Anna/Research/Research Grants and Funding Information",
+      "group": "Education",
+      "keywords": [
+        "research grant funding information"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Education/Anna/Research/Research Proposals",
+      "seed_path": "Education/Anna/Research/Research Proposals",
+      "group": "Education",
+      "keywords": [
+        "research proposal",
+        "proposal"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Education/Anna/Research/Thesis",
+      "seed_path": "Education/Anna/Research/Thesis",
+      "group": "Education",
+      "keywords": [
+        "thesi"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Education/Anna/Study Abroad/Foreign University Admission and Enrollment Documents",
+      "seed_path": "Education/Anna/Study Abroad/Foreign University Admission and Enrollment Documents",
+      "group": "Education",
+      "keywords": [
+        "foreign university admission enrollment document"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Education/Anna/Study Abroad/International Insurance Information",
+      "seed_path": "Education/Anna/Study Abroad/International Insurance Information",
+      "group": "Education",
+      "keywords": [
+        "international insurance information"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Education/Anna/Study Abroad/Passport:Visa Copies",
+      "seed_path": "Education/Anna/Study Abroad/Passport:Visa Copies",
+      "group": "Education",
+      "keywords": [
+        "passport visa copy"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Education/Anna/Study Abroad/Travel Itineraries",
+      "seed_path": "Education/Anna/Study Abroad/Travel Itineraries",
+      "group": "Education",
+      "keywords": [
+        "travel itinerary",
+        "itinerary"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Education/Anna/Transcripts and Grades/College:University Transcripts",
+      "seed_path": "Education/Anna/Transcripts and Grades/College:University Transcripts",
+      "group": "Education",
+      "keywords": [
+        "college university transcript",
+        "transcript"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Education/Anna/Transcripts and Grades/High School Transcripts",
+      "seed_path": "Education/Anna/Transcripts and Grades/High School Transcripts",
+      "group": "Education",
+      "keywords": [
+        "high school transcript",
+        "transcript"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Education/Anna/Transcripts and Grades/Report Cards",
+      "seed_path": "Education/Anna/Transcripts and Grades/Report Cards",
+      "group": "Education",
+      "keywords": [
+        "report card",
+        "card"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Education/Anna/Transcripts and Grades/Standardized Test Scores",
+      "seed_path": "Education/Anna/Transcripts and Grades/Standardized Test Scores",
+      "group": "Education",
+      "keywords": [
+        "standardized test score",
+        "score"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Education/Sakura/Admission Documents/Admission Letters",
+      "seed_path": "Education/Sakura/Admission Documents/Admission Letters",
+      "group": "Education",
+      "keywords": [
+        "admission letter",
+        "letter"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Education/Sakura/Admission Documents/Enrollment Forms",
+      "seed_path": "Education/Sakura/Admission Documents/Enrollment Forms",
+      "group": "Education",
+      "keywords": [
+        "enrollment form"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Education/Sakura/Admission Documents/Financial Aid Docs",
+      "seed_path": "Education/Sakura/Admission Documents/Financial Aid Docs",
+      "group": "Education",
+      "keywords": [
+        "financial aid doc"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Education/Sakura/Admission Documents/Scholarship Awards and Info",
+      "seed_path": "Education/Sakura/Admission Documents/Scholarship Awards and Info",
+      "group": "Education",
+      "keywords": [
+        "scholarship award info"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Education/Sakura/Course Materials/Assignments",
+      "seed_path": "Education/Sakura/Course Materials/Assignments",
+      "group": "Education",
+      "keywords": [
+        "assignment"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Education/Sakura/Course Materials/Lecture Notes",
+      "seed_path": "Education/Sakura/Course Materials/Lecture Notes",
+      "group": "Education",
+      "keywords": [
+        "lecture note"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Education/Sakura/Course Materials/Reading Materials & Textbooks",
+      "seed_path": "Education/Sakura/Course Materials/Reading Materials & Textbooks",
+      "group": "Education",
+      "keywords": [
+        "reading material textbook",
+        "textbook"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Education/Sakura/Course Materials/Research Papers and Projects",
+      "seed_path": "Education/Sakura/Course Materials/Research Papers and Projects",
+      "group": "Education",
+      "keywords": [
+        "research paper project",
+        "project"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Education/Sakura/Course Materials/Syllabi",
+      "seed_path": "Education/Sakura/Course Materials/Syllabi",
+      "group": "Education",
+      "keywords": [
+        "syllabi"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Education/Sakura/Diplomas and Certificates",
+      "seed_path": "Education/Sakura/Diplomas and Certificates",
+      "group": "Education",
+      "keywords": [
+        "diploma certificate",
+        "certificate"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Education/Sakura/Extracurricular Activities/Awards",
+      "seed_path": "Education/Sakura/Extracurricular Activities/Awards",
+      "group": "Education",
+      "keywords": [
+        "award"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Education/Sakura/Extracurricular Activities/Club Memberships",
+      "seed_path": "Education/Sakura/Extracurricular Activities/Club Memberships",
+      "group": "Education",
+      "keywords": [
+        "club membership",
+        "membership"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Education/Sakura/Extracurricular Activities/Sports Participation Records",
+      "seed_path": "Education/Sakura/Extracurricular Activities/Sports Participation Records",
+      "group": "Education",
+      "keywords": [
+        "sport participation record"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Education/Sakura/Extracurricular Activities/Volunteer Experience",
+      "seed_path": "Education/Sakura/Extracurricular Activities/Volunteer Experience",
+      "group": "Education",
+      "keywords": [
+        "volunteer experience",
+        "experience"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Education/Sakura/Financial Documents/Education Related Expenses",
+      "seed_path": "Education/Sakura/Financial Documents/Education Related Expenses",
+      "group": "Education",
+      "keywords": [
+        "education related expens",
+        "expens"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Education/Sakura/Financial Documents/Scholarship Details",
+      "seed_path": "Education/Sakura/Financial Documents/Scholarship Details",
+      "group": "Education",
+      "keywords": [
+        "scholarship detail"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Education/Sakura/Financial Documents/Student Loan Info",
+      "seed_path": "Education/Sakura/Financial Documents/Student Loan Info",
+      "group": "Education",
+      "keywords": [
+        "student loan info"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Education/Sakura/Financial Documents/Tuition Fee Receipts",
+      "seed_path": "Education/Sakura/Financial Documents/Tuition Fee Receipts",
+      "group": "Education",
+      "keywords": [
+        "tuition fee receipt",
+        "receipt"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Education/Sakura/Miscellaneous",
+      "seed_path": "Education/Sakura/Miscellaneous",
+      "group": "Education",
+      "keywords": [],
+      "patterns": []
+    },
+    {
+      "path": "Education/Sakura/Transcripts and Grades",
+      "seed_path": "Education/Sakura/Transcripts and Grades",
+      "group": "Education",
+      "keywords": [
+        "transcript grade",
+        "grade"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Education/Sakura/Weiss High School",
+      "seed_path": "Education/Sakura/Weiss High School",
+      "group": "Education",
+      "keywords": [
+        "weiss high school",
+        "school"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Family Shared/Adoption Papers",
+      "seed_path": "Family Shared/Adoption Papers",
+      "group": "Family Shared",
+      "keywords": [
+        "adoption paper",
+        "paper"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Family Shared/Advocacy",
+      "seed_path": "Family Shared/Advocacy",
+      "group": "Family Shared",
+      "keywords": [
+        "advocacy"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Family Shared/Anna Hardship/Non-Profit Research",
+      "seed_path": "Family Shared/Anna Hardship/Non-Profit Research",
+      "group": "Family Shared",
+      "keywords": [
+        "non profit research",
+        "research"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Family Shared/Anna Hardship/Reports and Summaries",
+      "seed_path": "Family Shared/Anna Hardship/Reports and Summaries",
+      "group": "Family Shared",
+      "keywords": [
+        "report summary",
+        "summary"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Family Shared/Anna Hardship/Requests for Assistance",
+      "seed_path": "Family Shared/Anna Hardship/Requests for Assistance",
+      "group": "Family Shared",
+      "keywords": [
+        "request assistance",
+        "assistance"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Family Shared/Benefits Applications/Anna",
+      "seed_path": "Family Shared/Benefits Applications/Anna",
+      "group": "Family Shared",
+      "keywords": [
+        "anna"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Family Shared/Benefits Applications/Olga",
+      "seed_path": "Family Shared/Benefits Applications/Olga",
+      "group": "Family Shared",
+      "keywords": [
+        "olga"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Family Shared/Benefits Applications/Sakura",
+      "seed_path": "Family Shared/Benefits Applications/Sakura",
+      "group": "Family Shared",
+      "keywords": [
+        "sakura"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Family Shared/Birth Certificate Backup",
+      "seed_path": "Family Shared/Birth Certificate Backup",
+      "group": "Family Shared",
+      "keywords": [
+        "birth certificate backup"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Family Shared/CPS",
+      "seed_path": "Family Shared/CPS",
+      "group": "Family Shared",
+      "keywords": [
+        "child protective services",
+        "cps",
+        "caseworker",
+        "investigation finding"
+      ],
+      "patterns": [
+        "child protective services",
+        "\\bcps\\b"
+      ]
+    },
+    {
+      "path": "Family Shared/Family Feuds",
+      "seed_path": "Family Shared/Family Feuds",
+      "group": "Family Shared",
+      "keywords": [
+        "family feud",
+        "feud"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Family Shared/Family Recipes",
+      "seed_path": "Family Shared/Family Recipes",
+      "group": "Family Shared",
+      "keywords": [
+        "family recipe",
+        "recipe"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Family Shared/Identification/Birth Certificate",
+      "seed_path": "Family Shared/Identification/Birth Certificate",
+      "group": "Family Shared",
+      "keywords": [
+        "birth certificate",
+        "certificate of birth",
+        "registrar"
+      ],
+      "patterns": [
+        "certificate of (live )?birth"
+      ]
+    },
+    {
+      "path": "Family Shared/Identification/Drivers License",
+      "seed_path": "Family Shared/Identification/Drivers License",
+      "group": "Family Shared",
+      "keywords": [
+        "driver license",
+        "drivers license",
+        "dps",
+        "class c"
+      ],
+      "patterns": [
+        "driver'?s?\\s+license",
+        "\\bdl\\s*(no|#)"
+      ]
+    },
+    {
+      "path": "Family Shared/Identification/Passport",
+      "seed_path": "Family Shared/Identification/Passport",
+      "group": "Family Shared",
+      "keywords": [
+        "passport",
+        "travel document",
+        "place of issue"
+      ],
+      "patterns": [
+        "passport\\s+(no|number)"
+      ]
+    },
+    {
+      "path": "Family Shared/Mail and Relocation Documents",
+      "seed_path": "Family Shared/Mail and Relocation Documents",
+      "group": "Family Shared",
+      "keywords": [
+        "mail relocation document"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Family Shared/Marriage Certificate Backup",
+      "seed_path": "Family Shared/Marriage Certificate Backup",
+      "group": "Family Shared",
+      "keywords": [
+        "marriage certificate backup"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Family Shared/Medical Records/Family Medical Information",
+      "seed_path": "Family Shared/Medical Records/Family Medical Information",
+      "group": "Family Shared",
+      "keywords": [
+        "diagnosis",
+        "patient",
+        "clinic",
+        "discharge summary",
+        "prescription"
+      ],
+      "patterns": [
+        "date of (service|visit)",
+        "\\bicd-?10\\b"
+      ]
+    },
+    {
+      "path": "Family Shared/Medical Records/Immunization Records",
+      "seed_path": "Family Shared/Medical Records/Immunization Records",
+      "group": "Family Shared",
+      "keywords": [
+        "immunization",
+        "vaccination",
+        "shot record"
+      ],
+      "patterns": [
+        "\\b(dtap|tdap|hepb|mmr|varicella)\\b"
+      ]
+    },
+    {
+      "path": "Family Shared/Medical Records/Insurance Information",
+      "seed_path": "Family Shared/Medical Records/Insurance Information",
+      "group": "Family Shared",
+      "keywords": [
+        "explanation of benefits",
+        "member id",
+        "health plan",
+        "coverage",
+        "claim number"
+      ],
+      "patterns": [
+        "explanation of benefits",
+        "member\\s+id"
+      ]
+    },
+    {
+      "path": "Family Shared/Medical Records/Pets Medical Information",
+      "seed_path": "Family Shared/Medical Records/Pets Medical Information",
+      "group": "Family Shared",
+      "keywords": [
+        "pet medical information"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Family Shared/Name Change Documents",
+      "seed_path": "Family Shared/Name Change Documents",
+      "group": "Family Shared",
+      "keywords": [
+        "name change document"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Family Shared/Passport Backup",
+      "seed_path": "Family Shared/Passport Backup",
+      "group": "Family Shared",
+      "keywords": [
+        "passport backup"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Family Shared/Password Backup",
+      "seed_path": "Family Shared/Password Backup",
+      "group": "Family Shared",
+      "keywords": [
+        "password backup"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Family Shared/Photos/Anna",
+      "seed_path": "Family Shared/Photos/Anna",
+      "group": "Family Shared",
+      "keywords": [
+        "anna"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Family Shared/Photos/Sakura",
+      "seed_path": "Family Shared/Photos/Sakura",
+      "group": "Family Shared",
+      "keywords": [
+        "sakura"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Family Shared/Power Of Attorney Backup",
+      "seed_path": "Family Shared/Power Of Attorney Backup",
+      "group": "Family Shared",
+      "keywords": [
+        "power attorney backup"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Family Shared/SSN",
+      "seed_path": "Family Shared/SSN",
+      "group": "Family Shared",
+      "keywords": [
+        "ssn"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Family Shared/Sakura Estate/Claims",
+      "seed_path": "Family Shared/Sakura Estate/Claims",
+      "group": "Family Shared",
+      "keywords": [
+        "claim"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Family Shared/Sakura Estate/ERS",
+      "seed_path": "Family Shared/Sakura Estate/ERS",
+      "group": "Family Shared",
+      "keywords": [
+        "ers"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Family Shared/Sakura Estate/Final Accounting",
+      "seed_path": "Family Shared/Sakura Estate/Final Accounting",
+      "group": "Family Shared",
+      "keywords": [
+        "final accounting",
+        "accounting"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Family Shared/Sakura Estate/Financial Plans",
+      "seed_path": "Family Shared/Sakura Estate/Financial Plans",
+      "group": "Family Shared",
+      "keywords": [
+        "financial plan",
+        "plan"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Family Shared/Sakura Estate/Formal Updates and Summaries",
+      "seed_path": "Family Shared/Sakura Estate/Formal Updates and Summaries",
+      "group": "Family Shared",
+      "keywords": [
+        "formal update summary",
+        "summary"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Family Shared/Sakura Estate/Frost Statements",
+      "seed_path": "Family Shared/Sakura Estate/Frost Statements",
+      "group": "Family Shared",
+      "keywords": [
+        "frost statement",
+        "statement"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Family Shared/Sakura Estate/HOA",
+      "seed_path": "Family Shared/Sakura Estate/HOA",
+      "group": "Family Shared",
+      "keywords": [
+        "hoa"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Family Shared/Sakura Estate/House Appraisal Protests",
+      "seed_path": "Family Shared/Sakura Estate/House Appraisal Protests",
+      "group": "Family Shared",
+      "keywords": [
+        "house appraisal protest",
+        "protest"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Family Shared/Sakura Estate/House Damages",
+      "seed_path": "Family Shared/Sakura Estate/House Damages",
+      "group": "Family Shared",
+      "keywords": [
+        "house damage",
+        "damage"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Family Shared/Sakura Estate/Inheritance Taxes",
+      "seed_path": "Family Shared/Sakura Estate/Inheritance Taxes",
+      "group": "Family Shared",
+      "keywords": [
+        "inheritance tax"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Family Shared/Sakura Estate/Mail",
+      "seed_path": "Family Shared/Sakura Estate/Mail",
+      "group": "Family Shared",
+      "keywords": [
+        "mail"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Family Shared/Sakura Estate/Nigel Documents",
+      "seed_path": "Family Shared/Sakura Estate/Nigel Documents",
+      "group": "Family Shared",
+      "keywords": [
+        "nigel document"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Family Shared/Sakura Estate/Property Taxes",
+      "seed_path": "Family Shared/Sakura Estate/Property Taxes",
+      "group": "Family Shared",
+      "keywords": [
+        "property tax"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Family Shared/Sakura Estate/Sakura Hardship",
+      "seed_path": "Family Shared/Sakura Estate/Sakura Hardship",
+      "group": "Family Shared",
+      "keywords": [
+        "sakura hardship",
+        "hardship"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Family Shared/Sakura Estate/Warranty Fraud",
+      "seed_path": "Family Shared/Sakura Estate/Warranty Fraud",
+      "group": "Family Shared",
+      "keywords": [
+        "warranty fraud",
+        "fraud"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Finance/Banking/Anna",
+      "seed_path": "Finance/Banking/Anna",
+      "group": "Finance",
+      "keywords": [
+        "bank statement",
+        "checking account",
+        "deposit"
+      ],
+      "patterns": [
+        "statement period",
+        "beginning balance"
+      ]
+    },
+    {
+      "path": "Finance/Banking/Sakura",
+      "seed_path": "Finance/Banking/Sakura",
+      "group": "Finance",
+      "keywords": [
+        "bank statement",
+        "checking account",
+        "deposit"
+      ],
+      "patterns": [
+        "statement period",
+        "beginning balance"
+      ]
+    },
+    {
+      "path": "Finance/Bills and Utilities/ATT",
+      "seed_path": "Finance/Bills and Utilities/ATT",
+      "group": "Finance",
+      "keywords": [
+        "att"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Finance/Bills and Utilities/Atmos",
+      "seed_path": "Finance/Bills and Utilities/Atmos",
+      "group": "Finance",
+      "keywords": [
+        "atmo"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Finance/Bills and Utilities/Green Mountain Energy",
+      "seed_path": "Finance/Bills and Utilities/Green Mountain Energy",
+      "group": "Finance",
+      "keywords": [
+        "green mountain energy",
+        "energy"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Finance/Bills and Utilities/Monthly Utility Bills",
+      "seed_path": "Finance/Bills and Utilities/Monthly Utility Bills",
+      "group": "Finance",
+      "keywords": [
+        "monthly utility bill",
+        "bill"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Finance/Bills and Utilities/Other Recurring Bills",
+      "seed_path": "Finance/Bills and Utilities/Other Recurring Bills",
+      "group": "Finance",
+      "keywords": [
+        "other recurring bill",
+        "bill"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Finance/Bills and Utilities/Rent:Mortgage Receipts",
+      "seed_path": "Finance/Bills and Utilities/Rent:Mortgage Receipts",
+      "group": "Finance",
+      "keywords": [
+        "rent mortgage receipt",
+        "receipt"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Finance/Bills and Utilities/Spectrum",
+      "seed_path": "Finance/Bills and Utilities/Spectrum",
+      "group": "Finance",
+      "keywords": [
+        "spectrum"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Finance/Credit Cards/Credit Card Contact Info",
+      "seed_path": "Finance/Credit Cards/Credit Card Contact Info",
+      "group": "Finance",
+      "keywords": [
+        "credit card contact info"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Finance/Credit Cards/Credit Card Statements",
+      "seed_path": "Finance/Credit Cards/Credit Card Statements",
+      "group": "Finance",
+      "keywords": [
+        "credit card statement",
+        "statement"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Finance/Credit Cards/Credit Score Reports",
+      "seed_path": "Finance/Credit Cards/Credit Score Reports",
+      "group": "Finance",
+      "keywords": [
+        "credit score report",
+        "report"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Finance/Insurance/Auto Insurance Policies",
+      "seed_path": "Finance/Insurance/Auto Insurance Policies",
+      "group": "Finance",
+      "keywords": [
+        "auto insurance policy",
+        "policy"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Finance/Insurance/Health Insurance Information",
+      "seed_path": "Finance/Insurance/Health Insurance Information",
+      "group": "Finance",
+      "keywords": [
+        "health insurance information"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Finance/Insurance/Home Insurance Documents",
+      "seed_path": "Finance/Insurance/Home Insurance Documents",
+      "group": "Finance",
+      "keywords": [
+        "home insurance document"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Finance/Insurance/Life Insurance Policies",
+      "seed_path": "Finance/Insurance/Life Insurance Policies",
+      "group": "Finance",
+      "keywords": [
+        "life insurance policy",
+        "policy"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Finance/Insurance/Property Insurance",
+      "seed_path": "Finance/Insurance/Property Insurance",
+      "group": "Finance",
+      "keywords": [
+        "property insurance",
+        "insurance"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Finance/Investments/Buy:Sell Transaction Records",
+      "seed_path": "Finance/Investments/Buy:Sell Transaction Records",
+      "group": "Finance",
+      "keywords": [
+        "buy sell transaction record"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Finance/Investments/Investment Account Information",
+      "seed_path": "Finance/Investments/Investment Account Information",
+      "group": "Finance",
+      "keywords": [
+        "investment account information"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Finance/Investments/Mutual Fund Statements",
+      "seed_path": "Finance/Investments/Mutual Fund Statements",
+      "group": "Finance",
+      "keywords": [
+        "mutual fund statement",
+        "statement"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Finance/Investments/Portfolio Statements",
+      "seed_path": "Finance/Investments/Portfolio Statements",
+      "group": "Finance",
+      "keywords": [
+        "portfolio statement",
+        "statement"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Finance/Loans/Car Loan Documents",
+      "seed_path": "Finance/Loans/Car Loan Documents",
+      "group": "Finance",
+      "keywords": [
+        "car loan document"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Finance/Loans/Mortgage Documents",
+      "seed_path": "Finance/Loans/Mortgage Documents",
+      "group": "Finance",
+      "keywords": [
+        "mortgage document"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Finance/Loans/Personal Loan Documents",
+      "seed_path": "Finance/Loans/Personal Loan Documents",
+      "group": "Finance",
+      "keywords": [
+        "personal loan document"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Finance/Loans/Student Loan Information",
+      "seed_path": "Finance/Loans/Student Loan Information",
+      "group": "Finance",
+      "keywords": [
+        "student loan information"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Finance/Real Estate/Home Purchase Documents",
+      "seed_path": "Finance/Real Estate/Home Purchase Documents",
+      "group": "Finance",
+      "keywords": [
+        "home purchase document"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Finance/Real Estate/Lease Agreements",
+      "seed_path": "Finance/Real Estate/Lease Agreements",
+      "group": "Finance",
+      "keywords": [
+        "lease agreement",
+        "agreement"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Finance/Real Estate/Property Deeds",
+      "seed_path": "Finance/Real Estate/Property Deeds",
+      "group": "Finance",
+      "keywords": [
+        "property deed",
+        "deed"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Finance/Real Estate/Real Estate Investment Records",
+      "seed_path": "Finance/Real Estate/Real Estate Investment Records",
+      "group": "Finance",
+      "keywords": [
+        "real estate investment record"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Finance/Retirement/401k Info",
+      "seed_path": "Finance/Retirement/401k Info",
+      "group": "Finance",
+      "keywords": [
+        "401k info"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Finance/Retirement/IRA Information",
+      "seed_path": "Finance/Retirement/IRA Information",
+      "group": "Finance",
+      "keywords": [
+        "ira information"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Finance/Retirement/Pension Documents",
+      "seed_path": "Finance/Retirement/Pension Documents",
+      "group": "Finance",
+      "keywords": [
+        "pension document"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Finance/Retirement/Social Security Information",
+      "seed_path": "Finance/Retirement/Social Security Information",
+      "group": "Finance",
+      "keywords": [
+        "social security information"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Finance/Tax Documents/Federal & State Tax Returns",
+      "seed_path": "Finance/Tax Documents/Federal & State Tax Returns",
+      "group": "Finance",
+      "keywords": [
+        "federal state tax return",
+        "return"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Finance/Tax Documents/Property Tax Records",
+      "seed_path": "Finance/Tax Documents/Property Tax Records",
+      "group": "Finance",
+      "keywords": [
+        "property tax record"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Finance/Tax Documents/Receipts for Tax-Deductible Expenses",
+      "seed_path": "Finance/Tax Documents/Receipts for Tax-Deductible Expenses",
+      "group": "Finance",
+      "keywords": [
+        "receipt tax deductible expens",
+        "expens"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Finance/Tax Documents/W2 & 1099 Forms",
+      "seed_path": "Finance/Tax Documents/W2 & 1099 Forms",
+      "group": "Finance",
+      "keywords": [
+        "w-2",
+        "1099",
+        "wage and tax statement",
+        "employer identification"
+      ],
+      "patterns": [
+        "\\bw-?2\\b",
+        "\\b1099-?[a-z]{0,4}\\b"
+      ]
+    },
+    {
+      "path": "Hobby/AI Art",
+      "seed_path": "Hobby/AI Art",
+      "group": "Hobby",
+      "keywords": [
+        "ai art"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Hobby/Biology",
+      "seed_path": "Hobby/Biology",
+      "group": "Hobby",
+      "keywords": [
+        "biology"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Hobby/Civil Rights Research/Relevant Screenshots",
+      "seed_path": "Hobby/Civil Rights Research/Relevant Screenshots",
+      "group": "Hobby",
+      "keywords": [
+        "relevant screenshot",
+        "screenshot"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Hobby/Collecting/History",
+      "seed_path": "Hobby/Collecting/History",
+      "group": "Hobby",
+      "keywords": [
+        "history"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Hobby/Collecting/Inventory of Collection",
+      "seed_path": "Hobby/Collecting/Inventory of Collection",
+      "group": "Hobby",
+      "keywords": [
+        "inventory collection",
+        "collection"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Hobby/Collecting/Purchase or Appraisal Receipts",
+      "seed_path": "Hobby/Collecting/Purchase or Appraisal Receipts",
+      "group": "Hobby",
+      "keywords": [
+        "purchase appraisal receipt",
+        "receipt"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Hobby/Comedy",
+      "seed_path": "Hobby/Comedy",
+      "group": "Hobby",
+      "keywords": [
+        "comedy"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Hobby/Cooking/Cooking or Baking Tutorials",
+      "seed_path": "Hobby/Cooking/Cooking or Baking Tutorials",
+      "group": "Hobby",
+      "keywords": [
+        "cooking baking tutorial",
+        "tutorial"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Hobby/Cooking/Meal Plans",
+      "seed_path": "Hobby/Cooking/Meal Plans",
+      "group": "Hobby",
+      "keywords": [
+        "meal plan",
+        "plan"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Hobby/Cooking/Photos of Dishes",
+      "seed_path": "Hobby/Cooking/Photos of Dishes",
+      "group": "Hobby",
+      "keywords": [
+        "photo dish",
+        "dish"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Hobby/Cooking/Recipes",
+      "seed_path": "Hobby/Cooking/Recipes",
+      "group": "Hobby",
+      "keywords": [
+        "recipe"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Hobby/Creative Writing",
+      "seed_path": "Hobby/Creative Writing",
+      "group": "Hobby",
+      "keywords": [
+        "creative writing",
+        "writing"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Hobby/Gardening/Garden Layouts and Plans",
+      "seed_path": "Hobby/Gardening/Garden Layouts and Plans",
+      "group": "Hobby",
+      "keywords": [
+        "garden layout plan",
+        "plan"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Hobby/Gardening/Photos of Garden",
+      "seed_path": "Hobby/Gardening/Photos of Garden",
+      "group": "Hobby",
+      "keywords": [
+        "photo garden",
+        "garden"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Hobby/Gardening/Plant Care Guides",
+      "seed_path": "Hobby/Gardening/Plant Care Guides",
+      "group": "Hobby",
+      "keywords": [
+        "plant care guide",
+        "guide"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Hobby/Geopolitics",
+      "seed_path": "Hobby/Geopolitics",
+      "group": "Hobby",
+      "keywords": [
+        "geopolitic"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Hobby/Music/Equipment Manuals",
+      "seed_path": "Hobby/Music/Equipment Manuals",
+      "group": "Hobby",
+      "keywords": [
+        "equipment manual",
+        "manual"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Hobby/Music/Recording Files",
+      "seed_path": "Hobby/Music/Recording Files",
+      "group": "Hobby",
+      "keywords": [
+        "recording file"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Hobby/Music/Research Papers",
+      "seed_path": "Hobby/Music/Research Papers",
+      "group": "Hobby",
+      "keywords": [
+        "research paper",
+        "paper"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Hobby/Music/Screenshots",
+      "seed_path": "Hobby/Music/Screenshots",
+      "group": "Hobby",
+      "keywords": [
+        "screenshot"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Hobby/Music/Sheet Music or Tabs",
+      "seed_path": "Hobby/Music/Sheet Music or Tabs",
+      "group": "Hobby",
+      "keywords": [
+        "sheet music tab"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Hobby/My Movies/Documents",
+      "seed_path": "Hobby/My Movies/Documents",
+      "group": "Hobby",
+      "keywords": [
+        "document"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Hobby/My Movies/Movies",
+      "seed_path": "Hobby/My Movies/Movies",
+      "group": "Hobby",
+      "keywords": [
+        "movy"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Hobby/Paintings",
+      "seed_path": "Hobby/Paintings",
+      "group": "Hobby",
+      "keywords": [
+        "painting"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Hobby/Photography",
+      "seed_path": "Hobby/Photography",
+      "group": "Hobby",
+      "keywords": [
+        "photography"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Hobby/Psychology",
+      "seed_path": "Hobby/Psychology",
+      "group": "Hobby",
+      "keywords": [
+        "psychology"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Hobby/Reading",
+      "seed_path": "Hobby/Reading",
+      "group": "Hobby",
+      "keywords": [
+        "reading"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Hobby/Sports/Competition Information",
+      "seed_path": "Hobby/Sports/Competition Information",
+      "group": "Hobby",
+      "keywords": [
+        "competition information"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Hobby/Sports/Equipment Manuals and Purchase Information",
+      "seed_path": "Hobby/Sports/Equipment Manuals and Purchase Information",
+      "group": "Hobby",
+      "keywords": [
+        "equipment manual purchase information"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Hobby/Sports/Progress Trackers or Logs",
+      "seed_path": "Hobby/Sports/Progress Trackers or Logs",
+      "group": "Hobby",
+      "keywords": [
+        "progress tracker log"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Hobby/Sports/Workout Plans and Routines",
+      "seed_path": "Hobby/Sports/Workout Plans and Routines",
+      "group": "Hobby",
+      "keywords": [
+        "workout plan routine",
+        "routine"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Hobby/Tech/Active_Inference",
+      "seed_path": "Hobby/Tech/Active_Inference",
+      "group": "Hobby",
+      "keywords": [
+        "active inference",
+        "inference"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Hobby/Tech/Automation",
+      "seed_path": "Hobby/Tech/Automation",
+      "group": "Hobby",
+      "keywords": [
+        "automation"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Hobby/Tech/NLP",
+      "seed_path": "Hobby/Tech/NLP",
+      "group": "Hobby",
+      "keywords": [
+        "nlp"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Hobby/Tech/Python_GUI",
+      "seed_path": "Hobby/Tech/Python_GUI",
+      "group": "Hobby",
+      "keywords": [
+        "python gui"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Hobby/Travel/Packing Lists",
+      "seed_path": "Hobby/Travel/Packing Lists",
+      "group": "Hobby",
+      "keywords": [
+        "packing list",
+        "list"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Hobby/Travel/Travel Guides",
+      "seed_path": "Hobby/Travel/Travel Guides",
+      "group": "Hobby",
+      "keywords": [
+        "travel guide",
+        "guide"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Hobby/Travel/Travel Itineraries",
+      "seed_path": "Hobby/Travel/Travel Itineraries",
+      "group": "Hobby",
+      "keywords": [
+        "travel itinerary",
+        "itinerary"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Home/Home Maintenance/Appliance Manuals",
+      "seed_path": "Home/Home Maintenance/Appliance Manuals",
+      "group": "Home",
+      "keywords": [
+        "appliance manual",
+        "manual"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Home/Home Maintenance/Renovations",
+      "seed_path": "Home/Home Maintenance/Renovations",
+      "group": "Home",
+      "keywords": [
+        "renovation"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Home/Home Maintenance/Repairs",
+      "seed_path": "Home/Home Maintenance/Repairs",
+      "group": "Home",
+      "keywords": [
+        "repair"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Home/Insurance/Auto Insurance",
+      "seed_path": "Home/Insurance/Auto Insurance",
+      "group": "Home",
+      "keywords": [
+        "auto insurance",
+        "insurance"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Home/Insurance/Claims",
+      "seed_path": "Home/Insurance/Claims",
+      "group": "Home",
+      "keywords": [
+        "claim"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Home/Insurance/Home Insurance",
+      "seed_path": "Home/Insurance/Home Insurance",
+      "group": "Home",
+      "keywords": [
+        "home insurance",
+        "insurance"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Home/Utilities/Cable:Internet",
+      "seed_path": "Home/Utilities/Cable:Internet",
+      "group": "Home",
+      "keywords": [
+        "cable internet",
+        "internet"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Home/Utilities/Electricity",
+      "seed_path": "Home/Utilities/Electricity",
+      "group": "Home",
+      "keywords": [
+        "electricity"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Home/Utilities/Phone",
+      "seed_path": "Home/Utilities/Phone",
+      "group": "Home",
+      "keywords": [
+        "phone"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Home/Utilities/Water",
+      "seed_path": "Home/Utilities/Water",
+      "group": "Home",
+      "keywords": [
+        "water"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "LEGAL_AND_ADVOCACY/00_TEMPLATES/Standard_Litigation_Folder_Hierarchy",
+      "seed_path": "LEGAL_AND_ADVOCACY/00_TEMPLATES/Standard_Litigation_Folder_Hierarchy",
+      "group": "LEGAL_AND_ADVOCACY",
+      "keywords": [
+        "litigation",
+        "pleading",
+        "motion",
+        "exhibit",
+        "discovery",
+        "affidavit",
+        "notice of hearing"
+      ],
+      "patterns": [
+        "cause\\s+(no|number)\\.?\\s*[0-9a-z\\-]+",
+        "motion\\s+(to|for)\\s+\\w+"
+      ]
+    },
+    {
+      "path": "LEGAL_AND_ADVOCACY/01_TRAVIS_COUNTY_AND_LOCAL/01.2_STATE_DISTRICT_COURT",
+      "seed_path": "LEGAL_AND_ADVOCACY/01_TRAVIS_COUNTY_AND_LOCAL/01.2_STATE_DISTRICT_COURT",
+      "group": "LEGAL_AND_ADVOCACY",
+      "keywords": [
+        "district court",
+        "judicial district",
+        "civil action",
+        "district clerk"
+      ],
+      "patterns": [
+        "\\d{2,3}(st|nd|rd|th)\\s+judicial district",
+        "district court of travis"
+      ]
+    },
+    {
+      "path": "LEGAL_AND_ADVOCACY/01_TRAVIS_COUNTY_AND_LOCAL/01_PROBATE_COURT",
+      "seed_path": "LEGAL_AND_ADVOCACY/01_TRAVIS_COUNTY_AND_LOCAL/01_PROBATE_COURT",
+      "group": "LEGAL_AND_ADVOCACY",
+      "keywords": [
+        "probate",
+        "estate",
+        "letters testamentary",
+        "executor",
+        "administrator",
+        "guardianship"
+      ],
+      "patterns": [
+        "estate of\\s+\\w+",
+        "in re:?.*estate",
+        "probate court"
+      ]
+    },
+    {
+      "path": "LEGAL_AND_ADVOCACY/01_TRAVIS_COUNTY_AND_LOCAL/02.1_JUSTICE_PEACE_1",
+      "seed_path": "LEGAL_AND_ADVOCACY/01_TRAVIS_COUNTY_AND_LOCAL/02.1_JUSTICE_PEACE_1",
+      "group": "LEGAL_AND_ADVOCACY",
+      "keywords": [
+        "justice of the peace",
+        "precinct 1",
+        "small claims",
+        "eviction"
+      ],
+      "patterns": [
+        "precinct\\s+(1|one)\\b",
+        "justice court"
+      ]
+    },
+    {
+      "path": "LEGAL_AND_ADVOCACY/01_TRAVIS_COUNTY_AND_LOCAL/02.2_JUSTICE_PEACE_5",
+      "seed_path": "LEGAL_AND_ADVOCACY/01_TRAVIS_COUNTY_AND_LOCAL/02.2_JUSTICE_PEACE_5",
+      "group": "LEGAL_AND_ADVOCACY",
+      "keywords": [
+        "justice of the peace",
+        "precinct 5",
+        "small claims",
+        "eviction"
+      ],
+      "patterns": [
+        "precinct\\s+(5|five)\\b",
+        "justice court"
+      ]
+    },
+    {
+      "path": "LEGAL_AND_ADVOCACY/01_TRAVIS_COUNTY_AND_LOCAL/02_JUSTICE_PEACE_2",
+      "seed_path": "LEGAL_AND_ADVOCACY/01_TRAVIS_COUNTY_AND_LOCAL/02_JUSTICE_PEACE_2",
+      "group": "LEGAL_AND_ADVOCACY",
+      "keywords": [
+        "justice of the peace",
+        "precinct 2",
+        "small claims",
+        "eviction"
+      ],
+      "patterns": [
+        "precinct\\s+(2|two)\\b",
+        "justice court"
+      ]
+    },
+    {
+      "path": "LEGAL_AND_ADVOCACY/01_TRAVIS_COUNTY_AND_LOCAL/03_MUNICIPAL_CRIMINAL",
+      "seed_path": "LEGAL_AND_ADVOCACY/01_TRAVIS_COUNTY_AND_LOCAL/03_MUNICIPAL_CRIMINAL",
+      "group": "LEGAL_AND_ADVOCACY",
+      "keywords": [
+        "municipal court",
+        "citation",
+        "criminal complaint",
+        "arraignment",
+        "ticket"
+      ],
+      "patterns": [
+        "municipal court",
+        "citation\\s+(no|number)"
+      ]
+    },
+    {
+      "path": "LEGAL_AND_ADVOCACY/02_TEXAS_STATE_AND_OVERSIGHT/02.1_Administrative_PUC_SOAH",
+      "seed_path": "LEGAL_AND_ADVOCACY/02_TEXAS_STATE_AND_OVERSIGHT/02.1_Administrative_PUC_SOAH",
+      "group": "LEGAL_AND_ADVOCACY",
+      "keywords": [
+        "public utility commission",
+        "soah",
+        "administrative hearing",
+        "contested case"
+      ],
+      "patterns": [
+        "\\bsoah\\b",
+        "\\bpuc\\b",
+        "docket\\s+no"
+      ]
+    },
+    {
+      "path": "LEGAL_AND_ADVOCACY/02_TEXAS_STATE_AND_OVERSIGHT/02.2_Professional_Grievances",
+      "seed_path": "LEGAL_AND_ADVOCACY/02_TEXAS_STATE_AND_OVERSIGHT/02.2_Professional_Grievances",
+      "group": "LEGAL_AND_ADVOCACY",
+      "keywords": [
+        "grievance",
+        "state bar",
+        "disciplinary",
+        "complaint against",
+        "licensure"
+      ],
+      "patterns": [
+        "state bar of texas",
+        "grievance\\s+(no|number)"
+      ]
+    },
+    {
+      "path": "LEGAL_AND_ADVOCACY/02_TEXAS_STATE_AND_OVERSIGHT/02.3_TWC_Civil_Rights_and_Labor",
+      "seed_path": "LEGAL_AND_ADVOCACY/02_TEXAS_STATE_AND_OVERSIGHT/02.3_TWC_Civil_Rights_and_Labor",
+      "group": "LEGAL_AND_ADVOCACY",
+      "keywords": [
+        "texas workforce commission",
+        "civil rights division",
+        "discrimination",
+        "wage claim",
+        "retaliation"
+      ],
+      "patterns": [
+        "texas workforce commission",
+        "\\btwc\\b"
+      ]
+    },
+    {
+      "path": "LEGAL_AND_ADVOCACY/02_TEXAS_STATE_AND_OVERSIGHT/02.4_HHSC_AND_BENEFITS",
+      "seed_path": "LEGAL_AND_ADVOCACY/02_TEXAS_STATE_AND_OVERSIGHT/02.4_HHSC_AND_BENEFITS",
+      "group": "LEGAL_AND_ADVOCACY",
+      "keywords": [
+        "hhsc",
+        "health and human services",
+        "snap",
+        "medicaid",
+        "benefits denial"
+      ],
+      "patterns": [
+        "\\bhhsc\\b",
+        "health and human services"
+      ]
+    },
+    {
+      "path": "LEGAL_AND_ADVOCACY/02_TEXAS_STATE_AND_OVERSIGHT/02.5_DMV",
+      "seed_path": "LEGAL_AND_ADVOCACY/02_TEXAS_STATE_AND_OVERSIGHT/02.5_DMV",
+      "group": "LEGAL_AND_ADVOCACY",
+      "keywords": [
+        "dmv"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "LEGAL_AND_ADVOCACY/02_TEXAS_STATE_AND_OVERSIGHT/02.6_Antisemitic_Commission",
+      "seed_path": "LEGAL_AND_ADVOCACY/02_TEXAS_STATE_AND_OVERSIGHT/02.6_Antisemitic_Commission",
+      "group": "LEGAL_AND_ADVOCACY",
+      "keywords": [
+        "antisemitic commission",
+        "commission"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "LEGAL_AND_ADVOCACY/02_TEXAS_STATE_AND_OVERSIGHT/02.7_Social_Media",
+      "seed_path": "LEGAL_AND_ADVOCACY/02_TEXAS_STATE_AND_OVERSIGHT/02.7_Social_Media",
+      "group": "LEGAL_AND_ADVOCACY",
+      "keywords": [
+        "social media",
+        "media"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "LEGAL_AND_ADVOCACY/02_TEXAS_STATE_AND_OVERSIGHT/02.8_Third_Court_Appeals",
+      "seed_path": "LEGAL_AND_ADVOCACY/02_TEXAS_STATE_AND_OVERSIGHT/02.8_Third_Court_Appeals",
+      "group": "LEGAL_AND_ADVOCACY",
+      "keywords": [
+        "court of appeals",
+        "appellant",
+        "appellee",
+        "brief",
+        "notice of appeal"
+      ],
+      "patterns": [
+        "third court of appeals",
+        "notice of appeal"
+      ]
+    },
+    {
+      "path": "LEGAL_AND_ADVOCACY/02_TEXAS_STATE_AND_OVERSIGHT/02.9_Supreme_Court",
+      "seed_path": "LEGAL_AND_ADVOCACY/02_TEXAS_STATE_AND_OVERSIGHT/02.9_Supreme_Court",
+      "group": "LEGAL_AND_ADVOCACY",
+      "keywords": [
+        "supreme court of texas",
+        "petition for review",
+        "mandamus"
+      ],
+      "patterns": [
+        "supreme court of texas",
+        "petition for review"
+      ]
+    },
+    {
+      "path": "LEGAL_AND_ADVOCACY/03_FEDERAL_AND_SOVEREIGN/03.1_Immigration_Identity",
+      "seed_path": "LEGAL_AND_ADVOCACY/03_FEDERAL_AND_SOVEREIGN/03.1_Immigration_Identity",
+      "group": "LEGAL_AND_ADVOCACY",
+      "keywords": [
+        "uscis",
+        "immigration",
+        "visa",
+        "green card",
+        "alien registration"
+      ],
+      "patterns": [
+        "\\buscis\\b",
+        "form\\s+i-\\d{3}"
+      ]
+    },
+    {
+      "path": "LEGAL_AND_ADVOCACY/03_FEDERAL_AND_SOVEREIGN/03.2_Civil_Rights_Title_VI",
+      "seed_path": "LEGAL_AND_ADVOCACY/03_FEDERAL_AND_SOVEREIGN/03.2_Civil_Rights_Title_VI",
+      "group": "LEGAL_AND_ADVOCACY",
+      "keywords": [
+        "title vi",
+        "civil rights",
+        "office for civil rights",
+        "discrimination"
+      ],
+      "patterns": [
+        "title\\s+vi\\b",
+        "office for civil rights"
+      ]
+    },
+    {
+      "path": "LEGAL_AND_ADVOCACY/03_FEDERAL_AND_SOVEREIGN/03.3_Strategic_Dashboards",
+      "seed_path": "LEGAL_AND_ADVOCACY/03_FEDERAL_AND_SOVEREIGN/03.3_Strategic_Dashboards",
+      "group": "LEGAL_AND_ADVOCACY",
+      "keywords": [
+        "strategic dashboard",
+        "dashboard"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "LEGAL_AND_ADVOCACY/03_FEDERAL_AND_SOVEREIGN/03.4_US_DISTRICT_COURT",
+      "seed_path": "LEGAL_AND_ADVOCACY/03_FEDERAL_AND_SOVEREIGN/03.4_US_DISTRICT_COURT",
+      "group": "LEGAL_AND_ADVOCACY",
+      "keywords": [
+        "united states district court",
+        "western district of texas",
+        "federal rules of civil procedure"
+      ],
+      "patterns": [
+        "united states district court",
+        "\\d:\\d{2}-cv-\\d+"
+      ]
+    },
+    {
+      "path": "LEGAL_AND_ADVOCACY/03_FEDERAL_AND_SOVEREIGN/03.5_US_CIRCUIT_COURT",
+      "seed_path": "LEGAL_AND_ADVOCACY/03_FEDERAL_AND_SOVEREIGN/03.5_US_CIRCUIT_COURT",
+      "group": "LEGAL_AND_ADVOCACY",
+      "keywords": [
+        "court of appeals",
+        "fifth circuit",
+        "appellant brief",
+        "notice of appeal"
+      ],
+      "patterns": [
+        "(fifth|5th) circuit",
+        "united states court of appeals"
+      ]
+    },
+    {
+      "path": "LEGAL_AND_ADVOCACY/03_FEDERAL_AND_SOVEREIGN/03.6_FBI",
+      "seed_path": "LEGAL_AND_ADVOCACY/03_FEDERAL_AND_SOVEREIGN/03.6_FBI",
+      "group": "LEGAL_AND_ADVOCACY",
+      "keywords": [
+        "federal bureau of investigation",
+        "fbi",
+        "tip",
+        "field office"
+      ],
+      "patterns": [
+        "federal bureau of investigation",
+        "\\bfbi\\b"
+      ]
+    },
+    {
+      "path": "LEGAL_AND_ADVOCACY/03_FEDERAL_AND_SOVEREIGN/03.7_EEOC",
+      "seed_path": "LEGAL_AND_ADVOCACY/03_FEDERAL_AND_SOVEREIGN/03.7_EEOC",
+      "group": "LEGAL_AND_ADVOCACY",
+      "keywords": [
+        "eeoc",
+        "charge of discrimination",
+        "right to sue",
+        "equal employment"
+      ],
+      "patterns": [
+        "\\beeoc\\b",
+        "right[- ]to[- ]sue"
+      ]
+    },
+    {
+      "path": "LEGAL_AND_ADVOCACY/05_FEDERAL_SUBMISSION",
+      "seed_path": "LEGAL_AND_ADVOCACY/05_FEDERAL_SUBMISSION",
+      "group": "LEGAL_AND_ADVOCACY",
+      "keywords": [
+        "federal submission",
+        "filing receipt",
+        "cm ecf",
+        "certificate of service"
+      ],
+      "patterns": [
+        "cm/ecf",
+        "certificate of service"
+      ]
+    },
+    {
+      "path": "LEGAL_AND_ADVOCACY/06_Website",
+      "seed_path": "LEGAL_AND_ADVOCACY/06_Website",
+      "group": "LEGAL_AND_ADVOCACY",
+      "keywords": [
+        "website"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Miscellaneous",
+      "seed_path": "Miscellaneous",
+      "group": "Miscellaneous",
+      "keywords": [],
+      "patterns": []
+    },
+    {
+      "path": "Personal",
+      "seed_path": "Personal",
+      "group": "Personal",
+      "keywords": [
+        "personal"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Pet Sitter Shared",
+      "seed_path": "Pet Sitter Shared",
+      "group": "Pet Sitter Shared",
+      "keywords": [
+        "pet sitter shared"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Software Licences/Codes",
+      "seed_path": "Software Licences/Codes",
+      "group": "Software Licences",
+      "keywords": [
+        "code"
+      ],
+      "patterns": []
+    },
+    {
+      "path": "Software Licences/Documents",
+      "seed_path": "Software Licences/Documents",
+      "group": "Software Licences",
+      "keywords": [
+        "document"
+      ],
+      "patterns": []
+    }
+  ],
+  "ignore": [
+    "~$",
+    ".DS_Store",
+    "ORGANIZING-LOG.md"
+  ]
+}

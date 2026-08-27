@@ -23,6 +23,9 @@ organized-docs = "organized_docs.cli:main"
 [tool.setuptools.packages.find]
 include = ["organized_docs*"]
 
+[tool.setuptools.package-data]
+organized_docs = ["data/*.json"]
+
 [tool.ruff]
 line-length = 100
 target-version = "py39"

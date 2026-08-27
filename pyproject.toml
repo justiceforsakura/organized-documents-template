@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "organized-docs"
+version = "0.1.0"
+description = "Zero-cloud CLI that classifies and files local legal documents into the organized-documents-template folder hierarchy."
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{ name = "Anna Nyulund" }]
+dependencies = [
+    "pypdf>=4.0",
+]
+
+[project.optional-dependencies]
+pdfplumber = ["pdfplumber>=0.11"]
+dev = ["pytest>=8.0", "ruff>=0.6"]
+
+[project.scripts]
+organized-docs = "organized_docs.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["organized_docs*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
